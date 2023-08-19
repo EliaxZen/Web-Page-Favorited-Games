@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: 0px 0px 30px #16558c;
+  color: #fff;
+}
+
+body {
+  width: 100%;
+}
+
+.container_horas {
+  background: rgb(17, 14, 14);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.container_horas h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Press Start 2P", cursive;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.box_horas {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0px 0px 30px #16558c;
+}
+
+.box-horas {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px #16558c;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.box-minutos {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px #16558c;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.box-segundos {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px #16558c;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.horas-text {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minutos-text {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.segundos-text {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-shadow: 0px 0px 20px #16558c;
+  font-size: 8px;
+  font-family: "Press Start 2P", cursive;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.game {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+}
+
+.banner_game {
+  height: 300px;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 30px #16558c;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+
+.banner_game img {
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #16558c;
+}
+
+.conteudo_links {
+  width: 650px;
+}
+
+.link_content {
+  width: 70%;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.conteudo_link__text h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.conteudo_link__text p {
+  line-height: 30px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.bar {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 1px;
+  background-color: #fff;
+  box-shadow: 0px 20px 20px #16558c;
+}
+
+.scrollbutton {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 999;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.scrollbutton img {
+  border-radius: 100%;
+  filter: invert();
+  background-color: transparent;
+}
+
+@media (min-width: 581px) and (max-width: 1014px) {
+  .container_horas h1 {
+    font-size: 20px;
+  }
+  .banner_game img {
+    width: 500px;
+    height: 300px;
+  }
+  .conteudo_link__text p {
+    font-size: 15px;
+  }
+  .conteudo_link__text h1 {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  .conteudo_links {
+    width: 100%;
+  }
+  .link_content {
+    width: 80%;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 580px) {
+  .container_horas h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .banner_game {
+    width: 300px;
+    height: 200px;
+  }
+  .banner_game img {
+    width: 300px;
+    height: 200px;
+  }
+  .conteudo_link__text p {
+    font-size: 10px;
+  }
+  .conteudo_link__text h1 {
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .conteudo_links {
+    width: 100%;
+    height: 100%;
+  }
+  .link_content {
+    width: 95%;
+    height: 250px;
+  }
+  iframe {
+    width: 100%;
+    height: 230px;
+  }
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container_horas {
+    height: 200px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
