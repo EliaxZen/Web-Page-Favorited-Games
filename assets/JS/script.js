@@ -12,7 +12,7 @@ const getHours = () => {
 };
 setInterval(() => {
   getHours();
-}, 100);
+}, 1);
 function subirTela() {
   window.scrollTo({
     top: 0,
