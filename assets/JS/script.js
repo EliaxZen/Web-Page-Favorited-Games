@@ -20,7 +20,7 @@ function subirTela() {
   });
 }
 function decidirBotaoScroll() {
-  if (window.scrollY === 100px) {
+  if (window.scrollY === 100) {
     //ocultar botão
     document.querySelector(".scrollbutton").style.display = "none";
   } else {
