@@ -191,7 +191,7 @@ iframe {
 
 .scrollbutton img {
   border-radius: 100%;
-  filter: invert();
+ 
   background-color: transparent;
 }
 
